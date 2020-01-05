@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "79971270294",
+    "firebase_url": "https://zerohunger-6c0a6.firebaseio.com",
+    "project_id": "zerohunger-6c0a6",
+    "storage_bucket": "zerohunger-6c0a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79971270294:android:c63ea45965fd11922b4cb7",
+        "android_client_info": {
+          "package_name": "lk.mad.trial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79971270294-7d4ll1142j058mkju69driqall32lfin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.mad.trial",
+            "certificate_hash": "22a4f738410a768f2ae61b596b5e7f7583bb8851"
+          }
+        },
+        {
+          "client_id": "79971270294-ru3k0hc6nv2kubjvfa9dbqnlirmqh0cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrPGRDtbf62GuEXJjazSoIDEgumpJsdD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79971270294-ru3k0hc6nv2kubjvfa9dbqnlirmqh0cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79971270294:android:a2a0676c10cea4792b4cb7",
+        "android_client_info": {
+          "package_name": "lk.mad.zerohunger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79971270294-klvt1v14nnp7o0mh1fvitip6sv3hkpo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.mad.zerohunger",
+            "certificate_hash": "22a4f738410a768f2ae61b596b5e7f7583bb8851"
+          }
+        },
+        {
+          "client_id": "79971270294-lj0md83tmp36ffs9v9ikm2u4j825lvda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.mad.zerohunger",
+            "certificate_hash": "3599515f638b7c87641fa855aafe6b21aadb1dfa"
+          }
+        },
+        {
+          "client_id": "79971270294-ru3k0hc6nv2kubjvfa9dbqnlirmqh0cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrPGRDtbf62GuEXJjazSoIDEgumpJsdD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79971270294-ru3k0hc6nv2kubjvfa9dbqnlirmqh0cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171717"
+    tools:context=".DriverRegistration">
+
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rounded_textbox"
+        android:ems="10"
+        android:hint="  Organization Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#2F000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rounded_textbox"
+        android:ems="10"
+        android:hint="  Organization Address"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#2F000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rounded_textbox"
+        android:ems="10"
+        android:hint="  Organization Email"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#2F000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576"
+        android:paddingLeft="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:background="@drawable/rounded_button"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rounded_textbox"
+        android:ems="10"
+        android:hint="  Organization Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#2F000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Organization Member "
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Registration"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
